@@ -24,5 +24,5 @@ CREATE TABLE entries (
     date            date not null,
     CONSTRAINT pk_entries PRIMARY KEY(id),
     CONSTRAINT fk_entry_user FOREIGN KEY(user_id) REFERENCES users(id),
-    CONSTRAINT fk_entry_category FOREIGN KEY(category_id) REFERENCES categories(id)
+    CONSTRAINT fk_entry_category FOREIGN KEY(category_id) REFERENCES categories(id) ON DELETE CASCADE
 )ENGINE=InnoDb;

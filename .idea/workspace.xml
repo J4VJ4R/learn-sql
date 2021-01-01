@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="create from design a database">
-      <change afterPath="$PROJECT_DIR$/04-dml/insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-dml/select.sql" afterDir="false" />
+    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="add data in only one column">
+      <change afterPath="$PROJECT_DIR$/04-dml/delete.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-dml/update.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-dml/where.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-design/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/03-design/blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-dml/select.sql" beforeDir="false" afterPath="$PROJECT_DIR$/04-dml/select.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,14 @@
       <workItem from="1606973926639" duration="8208000" />
       <workItem from="1607989301158" duration="2044000" />
       <workItem from="1608161685000" duration="1906000" />
-      <workItem from="1608249670003" duration="644000" />
+      <workItem from="1608249670003" duration="1646000" />
+      <workItem from="1608432022317" duration="1098000" />
+      <workItem from="1608603836098" duration="2482000" />
+      <workItem from="1609114457466" duration="639000" />
+      <workItem from="1609171685472" duration="12000" />
+      <workItem from="1609172135590" duration="12000" />
+      <workItem from="1609422471201" duration="3395000" />
+      <workItem from="1609462242018" duration="3363000" />
     </task>
     <task id="LOCAL-00001" summary="create from design a database">
       <created>1606982797335</created>
@@ -76,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606982797335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add data in only one column">
+      <created>1608250655553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608250655553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create from design a database" />
-    <option name="LAST_COMMIT_MESSAGE" value="create from design a database" />
+    <MESSAGE value="add data in only one column" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data in only one column" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="248" key="#SQL_Dialects" timestamp="1606716440263">
@@ -119,10 +135,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="627" y="31" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606975161158" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1606982810393">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1608250660474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606982810393" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608250660474" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606717016105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

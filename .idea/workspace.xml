@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="add data in only one column">
-      <change afterPath="$PROJECT_DIR$/04-dml/delete.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-dml/update.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-dml/where.sql" afterDir="false" />
+    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="delete and update.sql">
+      <change afterPath="$PROJECT_DIR$/05-agrupamiento/agrupamiento.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-agrupamiento/consultas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-agrupamiento/insert.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-dml/select.sql" beforeDir="false" afterPath="$PROJECT_DIR$/04-dml/select.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learnAngular" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\learn-sql\05-agrupamiento" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,6 +80,11 @@
       <workItem from="1609172135590" duration="12000" />
       <workItem from="1609422471201" duration="3395000" />
       <workItem from="1609462242018" duration="3363000" />
+      <workItem from="1609515814510" duration="195000" />
+      <workItem from="1609546335360" duration="3957000" />
+      <workItem from="1609593824177" duration="17000" />
+      <workItem from="1609628836107" duration="302000" />
+      <workItem from="1609693694192" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="create from design a database">
       <created>1606982797335</created>
@@ -91,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608250655553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete and update.sql">
+      <created>1609515841836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609515841836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create from design a database" />
     <MESSAGE value="add data in only one column" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data in only one column" />
+    <MESSAGE value="delete and update.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete and update.sql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="248" key="#SQL_Dialects" timestamp="1606716440263">
@@ -135,10 +152,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="627" y="31" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606975161158" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1608250660474">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1609515849026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608250660474" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609515849026" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606717016105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="delete and update.sql">
-      <change afterPath="$PROJECT_DIR$/05-agrupamiento/agrupamiento.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-agrupamiento/consultas.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-agrupamiento/insert.sql" afterDir="false" />
+    <list default="true" id="738078cb-9f7a-448d-8407-ad59802258a8" name="Default Changelist" comment="group by, having and count">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-agrupamiento/consultas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/05-agrupamiento/consultas.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,9 @@
       <workItem from="1609593824177" duration="17000" />
       <workItem from="1609628836107" duration="302000" />
       <workItem from="1609693694192" duration="83000" />
+      <workItem from="1609693821239" duration="107000" />
+      <workItem from="1609698569193" duration="1051000" />
+      <workItem from="1609715763976" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="create from design a database">
       <created>1606982797335</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609515841836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="group by, having and count">
+      <created>1609693893760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609693893760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +137,8 @@
     <MESSAGE value="create from design a database" />
     <MESSAGE value="add data in only one column" />
     <MESSAGE value="delete and update.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete and update.sql" />
+    <MESSAGE value="group by, having and count" />
+    <option name="LAST_COMMIT_MESSAGE" value="group by, having and count" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="248" key="#SQL_Dialects" timestamp="1606716440263">
@@ -152,10 +161,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="627" y="31" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606975161158" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1609515849026">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1609693897574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609515849026" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609693897574" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606717016105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

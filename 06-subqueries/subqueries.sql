@@ -23,12 +23,25 @@ SELECT name, lastname FROM users WHERE id IN (SELECT user_id FROM entries WHERE 
 
 SELECT * FROM entries WHERE category_id IN (SELECT id FROM categories WHERE name = 'Pablo');
 
-#mostrar las categorias con mas de tres enradas#
+#mostrar las categorias con 3 o mas entradas#
+
+SELECT * FROM categories WHERE id IN (SELECT category_id FROM entries GROUP BY category_id HAVING COUNT(category_id)>=3);
+
 
 #Mostrar los usuarios que crearon una entrada un martes#
 
+SELECT * FROM users WHERE id IN (SELECT user_id FROM entries WHERE DAYOFWEEK(date)=3);
+
+
 #mostrar el nombre del usuario que tenga más entradas#
 
-#mostrar las categorias sin enradas#
+SELECT CONCAT(name, ' ', lastname) AS 'USERS WITH MORE ENTRIES' FROM users WHERE id = (SELECT user_id FROM entries
+    GROUP BY user_id ORDER BY COUNT(id) DESC LIMIT 1);
+
+#mostrar las categorias sin description#
+
+
+
+
 
 

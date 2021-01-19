@@ -29,7 +29,7 @@ SELECT c.name, COUNT(e.id) AS 'NUMBER OF ENTRIES' FROM categories c, entries e W
 #NOW WITH INNER JOIN#
 SELECT c.name, COUNT(e.id) AS 'NUMBER OF ENTRIES'
 FROM categories c
-LEFT JOIN entries e ON e.category_id = c.id
+INNER JOIN entries e ON e.category_id = c.id
 GROUP BY category_id;
 
 #NOW WITH RIGHT JOIN#
